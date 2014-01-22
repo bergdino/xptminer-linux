@@ -1,0 +1,3 @@
+xptMiner Linux version
+if your gcc version is old
+delete "-march=native -mtune=native" from Makefile
