@@ -1,3 +1,8 @@
 xptMiner Linux version
 if your gcc version is old
 delete "-march=native -mtune=native" from Makefile
+default 4 threads
+
+make
+./xpt -o http://ypool.net -u <username>.<workername> -p <password> -t thread_num
+
